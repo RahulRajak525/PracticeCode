@@ -7,25 +7,25 @@ const Expenses = (props) => {
     <Card className="expenses">
       <ExpenseItem
         title={props.items[0].title}
-        location={props.items[0].LocationOfExpenditure}
+        // location={props.items[0].LocationOfExpenditure}
         date={props.items[0].date}
         amount={props.items[0].amount}
       />
       <ExpenseItem
         title={props.items[1].title}
-        location={props.items[1].LocationOfExpenditure}
+        // location={props.items[1].LocationOfExpenditure}
         date={props.items[1].date}
         amount={props.items[1].amount}
       />
       <ExpenseItem
         title={props.items[2].title}
-        location={props.items[2].LocationOfExpenditure}
+        // location={props.items[2].LocationOfExpenditure}
         date={props.items[2].date}
         amount={props.items[2].amount}
       />
       <ExpenseItem
         title={props.items[3].title}
-        location={props.items[3].LocationOfExpenditure}
+        // location={props.items[3].LocationOfExpenditure}
         date={props.items[3].date}
         amount={props.items[3].amount}
       />

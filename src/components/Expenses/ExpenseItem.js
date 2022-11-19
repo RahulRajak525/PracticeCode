@@ -16,7 +16,7 @@ const ExpenseItem = (props) => {
       <ExpenseDate date={props.date} />
       <ExpenseDetails
         title={props.title}
-        location={props.location}
+        // location={props.location}
         amount={amount}
       />
       <button onClick={UpdateExpense}>Update Expense</button>
