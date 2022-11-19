@@ -2,6 +2,7 @@
 import React from "react";
 import  ExpenseItem from "./components/Expenses/ExpenseItem";
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from './components/NewExpense/NewExpense'
 
 const App = () => {
   const expenses = [
@@ -36,17 +37,11 @@ const App = () => {
   ];
 return (
   <div>
-    <h1>Let's Gets Started</h1>
+    <NewExpense />
     <Expenses items={expenses} />
   </div>
 );
 
-// React.createElement(
-//   "div",
-//   {},
-//   React.createElement("h1", {}, "Let's Gets Started"),
-//   React.createElement(Expenses, {items:expenses})
-// );
 
 }
 
